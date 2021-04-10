@@ -1,6 +1,7 @@
 .body {
   margin-left: 60px;
   margin-right: 60px;
+  box-shadow: 5px 5px 5px 5px #888888;
 }
 
 .bodywrapper {
@@ -61,6 +62,7 @@ img {
 .homesection h2 {
   color: white;
   margin-top: 5%;
+  padding-bottom: 50px;
 }
 
 .homewrapper {
@@ -76,6 +78,7 @@ img {
   display: flex;
   justify-content: center;
   margin: auto;
+  margin-top: -40px;
 }
 
 .services h1 {
@@ -83,4 +86,47 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
+  text-align: center;
+}
+
+.card-deck {
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+.cl {
+  background-color: #f69679;
+}
+.cm {
+  background-color: #9ead4c;
+}
+.cr {
+  background-color: #a186be;
+}
+
+.card-title {
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  padding-top: 3%;
+  margin-top: 3%;
+}
+
+.footer h5 {
+  color: #9d1e20;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-copyright {
+  width: 80%;
+  border-top: 2px solid #9d1e20;
+  margin: auto;
 }
